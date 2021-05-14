@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Danh sách sinh viên</title>
+        <link rel="stylesheet" href="../lib/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    </head>
+    <body>
+        <div class="container">
+            <a href="../student/listStudent.php" class="btn btn-info">Students</a>
+            <a href="../subject/listSubject.php" class="btn btn-info">Subject</a>
+            <a href="../register/listRegister.php" class="btn btn-info">Register</a>		
+            <h1>Danh sách sinh viên đăng ký môn học</h1>
+            <a href="addRegister.php" class="btn btn-info">Add</a>
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Mã SV</th>
+                        <th>Tên SV</th>
+                        <th>Mã MH</th>
+                        <th>Tên MH</th>
+                        <th>Điểm</th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>Nguyễn Văn E</td>
+                        <td>1</td>
+                        <td>Toán</td>
+                        <td></td>
+                        <td><a href="editRegister.php?student_id=1&student_name=Nguyễn Văn E&subject_id=1&subject_name=Toán&score=">Cập nhật điểm</a></td>
+                        <td><a href="deleteRegister.php?student_id=1&subject_id=1">Xóa</a></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>2</td>
+                        <td>Nguyễn Thị D</td>
+                        <td>1</td>
+                        <td>Toán</td>
+                        <td>8</td>
+                        <td><a href="editRegister.php?student_id=2&student_name=Nguyễn Thị D&subject_id=1&subject_name=Toán&score=8">Cập nhật điểm</a></td>
+                        <td><a href="deleteRegister.php?student_id=2&subject_id=1">Xóa</a></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>8</td>
+                        <td>Nguyễn Văn G</td>
+                        <td>1</td>
+                        <td>Toán</td>
+                        <td></td>
+                        <td><a href="editRegister.php?student_id=8&student_name=Nguyễn Văn G&subject_id=1&subject_name=Toán&score=">Cập nhật điểm</a></td>
+                        <td><a href="deleteRegister.php?student_id=8&subject_id=1">Xóa</a></td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>1</td>
+                        <td>Nguyễn Văn E</td>
+                        <td>5</td>
+                        <td>Lý</td>
+                        <td></td>
+                        <td><a href="editRegister.php?student_id=1&student_name=Nguyễn Văn E&subject_id=5&subject_name=Lý&score=">Cập nhật điểm</a></td>
+                        <td><a href="deleteRegister.php?student_id=1&subject_id=5">Xóa</a></td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>2</td>
+                        <td>Nguyễn Thị D</td>
+                        <td>5</td>
+                        <td>Lý</td>
+                        <td></td>
+                        <td><a href="editRegister.php?student_id=2&student_name=Nguyễn Thị D&subject_id=5&subject_name=Lý&score=">Cập nhật điểm</a></td>
+                        <td><a href="deleteRegister.php?student_id=2&subject_id=5">Xóa</a></td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>1</td>
+                        <td>Nguyễn Văn E</td>
+                        <td>6</td>
+                        <td>Hóa</td>
+                        <td></td>
+                        <td><a href="editRegister.php?student_id=1&student_name=Nguyễn Văn E&subject_id=6&subject_name=Hóa&score=">Cập nhật điểm</a></td>
+                        <td><a href="deleteRegister.php?student_id=1&subject_id=6">Xóa</a></td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>3</td>
+                        <td>Nguyễn Văn A</td>
+                        <td>6</td>
+                        <td>Hóa</td>
+                        <td>4</td>
+                        <td><a href="editRegister.php?student_id=3&student_name=Nguyễn Văn A&subject_id=6&subject_name=Hóa&score=4">Cập nhật điểm</a></td>
+                        <td><a href="deleteRegister.php?student_id=3&subject_id=6">Xóa</a></td>
+                    </tr>
+                </tbody>
+            </table>
+            <script src="../lib/jquery/jquery.min.js"></script>
+            <script src="../lib/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+        </div>
+    </body>
+</html>
+

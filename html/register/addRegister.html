@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Thêm sinh viên</title>
+        <link rel="stylesheet" href="../lib/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    </head>
+    <body>
+        <div class="container">
+            <a href="listRegister.php" class="btn btn-info">Registers</a>
+            <h1>Thêm đăng ký môn học</h1>
+            <script src="../lib/jquery/jquery.min.js"></script>
+            <script src="../lib/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+            <form action="saveRegister.php" method="POST">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <div class="form-group">
+                                <label for="student_id">Tên sinh viên</label>
+                                <select name="student_id" id="student_id">
+                                    <option value="1">1-Nguyễn Văn E</option>
+                                    <option value="2">2-Nguyễn Thị D</option>
+                                    <option value="3">3-Nguyễn Văn A</option>
+                                    <option value="5">5-Nguyễn Văn B</option>
+                                    <option value="8">8-Nguyễn Văn G</option>
+                                    <option value="9">9-Nguyễn Văn G</option>
+                                    <option value="10">10-Nguyễn Thị D</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject_id">Tên môn học</label>
+                                <select name="subject_id" id="subject_id">
+                                    <option value="1">1-Toán</option>
+                                    <option value="5">5-Lý</option>
+                                    <option value="6">6-Hóa</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <button class="btn btn-success" type="submit">Lưu</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="../lib/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="container">
+        <a href="../student/listStudent.php" class="btn btn-info">Students</a>
+        <a href="../subject/listSubject.php" class="btn btn-info">Subject</a>
+        <a href="../register/listRegister.php" class="btn btn-info">Register</a>	
+        <h1>Danh Sach Môn Học</h1>
+        <a href="addSubject.php" class="btn btn-info">Add</a>
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Mã MH</th>
+                    <th>Tên</th>
+                    <th>Số tín chỉ</th>
+                    <th colspan="2">Tùy Chọn</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>Toán</td>
+                    <td>4</td>
+                    <td><a href="editSubject.php?id=1">Sửa</a></td>
+                    <td><a href="deleteSubject.php?id=1">Xóa</a></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>5</td>
+                    <td>Lý</td>
+                    <td>2</td>
+                    <td><a href="editSubject.php?id=5">Sửa</a></td>
+                    <td><a href="deleteSubject.php?id=5">Xóa</a></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>6</td>
+                    <td>Hóa</td>
+                    <td>3</td>
+                    <td><a href="editSubject.php?id=6">Sửa</a></td>
+                    <td><a href="deleteSubject.php?id=6">Xóa</a></td>
+                </tr>
+            </tbody>
+        </table>
+        <script src="../lib/jquery/jquery.min.js" type="text/javascript" charset="utf-8" async defer></script>
+        <script src="../lib/bootstrap-3.3.7-dist/js/bootstrap.min.js" type="text/javascript" charset="utf-8" async defer></script>
+    </body>
+</html>
+
